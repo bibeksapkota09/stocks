@@ -47,8 +47,8 @@ def stock():
     #same thing for the day before yesterday
     daybefore_yesterday_data = data_list[1]
     daybefore_yesterday_close = daybefore_yesterday_data["4. close"]
-    print(yesterday_close)
-    print(daybefore_yesterday_close)
+    # print(yesterday_close)
+    # print(daybefore_yesterday_close)
     diff = abs(float(daybefore_yesterday_close)-float(yesterday_close))
     #now working on NEWS_API 
     #declaring news params
