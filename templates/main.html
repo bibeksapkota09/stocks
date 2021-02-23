@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Stock News Alert</title>
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='test.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="../static/test.css">
+
+    <title>Stock News Alert</title>
 </head>
+
 <body>
+    <header>
+        <!-- Background image -->
+        <div class="p-5 text-center bg-image" style="
+            height: 500px;
+          ">
+            <div class="mask">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <h1 class="mb-3">Stock Market Khabar</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background image -->
 
-    <h3>Please Enter your Phone no and the TICKER symbol of your required Stock:</h3>
+        <div class="para">
+            <p>Make a value investment today.</p>
+            Get real time notification on your selected device when your selected stocks have siginificant price
+            movement.
+        </div>
 
-  
-  
-  <form method="post" action="/action_page">
-    <label for="phone_number">Phone Number:</label><br>
-    <input type="phone_number" id="phone_number" name="phone_number" > <br>
-    <label for="ticker">TICKER Symbol:</label><br>
-    <input type="text" id="ticker" name="ticker" ><br><br>
-    <input type="submit" value="Submit">
-  </form>
-  
-  <div>
-    <h2>Price difference {{price}}</h2>
-  </div>
+    </header>
 
-<footer class="container-fluid">
-  <p>All Rights Reserved</p>
-</footer>
 
 </body>
+
 </html>
