@@ -1,0 +1,35 @@
+/* input[type="text"],
+select {
+  width: 50%;
+  padding: 10px 10px;
+  margin: 10px 0;
+}
+
+input[type="email"],
+select {
+  width: 50%;
+  padding: 10px 10px;
+  margin: 10px 0;
+}
+
+input[type="password"],
+select {
+  width: 50%;
+  padding: 10px 10px;
+  margin: 10px 0;
+} */
+/* div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+input {
+  width: 10%;
+  padding: 10px;
+  margin: 10px 0;
+}
+input[type="submit"] {
+  width: 8%;
+  background-color: #4caf50;
+}
